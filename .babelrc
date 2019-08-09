@@ -1,0 +1,15 @@
+{
+  "env": {
+    "development": {
+      "presets": ["babel-preset-gatsby"],
+      "plugins": [
+        [
+          "@babel/plugin-proposal-decorators",
+          {
+            "legacy": true
+          }
+        ]
+      ]
+    }
+  }
+}

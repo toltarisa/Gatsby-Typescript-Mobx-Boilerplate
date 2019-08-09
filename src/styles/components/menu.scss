@@ -1,0 +1,19 @@
+.menu {
+  padding: 10px;
+  height: 45px;
+  background: blue;
+
+  .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+
+    .item {
+      a {
+        text-decoration: none;
+        color: #fff !important;
+      }
+    }
+  }
+}
